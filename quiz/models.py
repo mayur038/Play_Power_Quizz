@@ -12,7 +12,7 @@ class Quiz(models.Model):
     max_score = models.IntegerField()
     difficulty = models.CharField(max_length=10)
 
- 
+ # Shows the History of Quizz
 class QuizHistory(models.Model):
     quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE)
     score = models.IntegerField()
