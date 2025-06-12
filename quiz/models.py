@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your change i1 .
+# Create your change 
 from django.db import models
 from django.contrib.auth.models import User
 
