@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#Test
+#Testing The Project
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
